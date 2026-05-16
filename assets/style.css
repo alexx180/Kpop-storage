@@ -1,9 +1,10 @@
+/* base */
 html {
     background-color: black;
     color: white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+/* Galerie */
 section .gallery {
     border-radius: 0.5em;
 }
@@ -45,7 +46,7 @@ section a.enhypen {
     background-size: cover;
     height: auto;
 }
-
+/* Navigation */
 nav li {
     display: inline; /* met les éléments sur la même ligne */
     margin-right: 15px; /* espace entre les liens */
@@ -76,11 +77,13 @@ li a {
     display: inline-block;
     font-weight: bold;
 }
+
 h4 {
     color: white;
     text-align: center;
 
 }
+
 .member {
     width: 30%;
     display: inline-block;
@@ -140,7 +143,37 @@ h4 {
     padding: 1em;
     border-radius: 0.5em;
 }
+/*card*/
 
+.card {
+    background: #1a1a1a;
+    border-radius: 12px;
+    padding: 1.25rem;
+    border: 1px solid #333;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    margin: 1.5rem 0;
+}
+
+.card-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 6px;
+}
+ 
+.card-text {
+    font-size: 13px;
+    color: #aaa;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Footer */
 footer {
     font-size: smaller;
     color: gray;
