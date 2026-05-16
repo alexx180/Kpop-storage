@@ -1,9 +1,17 @@
 /* base */
 html {
-    background-color: black;
+    background-color: #000000;
     color: white;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+div .gallery {
+    background: linear-gradient(135deg, #000000, #0c401c, #1a7a24, #0c401c, #000000);
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+
 /* Galerie */
 section .gallery {
     border-radius: 0.5em;
@@ -39,6 +47,7 @@ section a.txt {
 
 section a:hover {
     opacity: 0.8;
+
 }
 
 section a.enhypen {
